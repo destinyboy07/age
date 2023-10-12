@@ -1,0 +1,23 @@
+button {
+    box-shadow: 5px 5px gray;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    width: 100px;
+    height: 60px;
+    border: 50px;
+    -webkit-text-fill-color: antiquewhite;
+    
+}
+button:hover {
+    background: linear-gradient(to right, green, red, black, blue);
+    -webkit-text-fill-color: salmon;
+    
+}
+.bisect:hover {
+    background: linear-gradient(to right, yellow, white, red, purple);
+    -webkit-text-fill-color: blue;
+}
+#sector:hover {
+    background: linear-gradient(to right, green, white, red)
+    -webkit-text-fill-color pink;
+}
